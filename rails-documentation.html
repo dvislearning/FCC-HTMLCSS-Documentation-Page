@@ -52,13 +52,29 @@
 		<section class="main-section" id="What_is_Active_Record">
 			<header class="section-header">What is Active Record</header>
 
-			Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping system.
-			1.1 The Active Record Pattern
+			<p class="doc-paragraph">Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping system.</p>
+			
+			<div class="section-sub-header">The Active Record Pattern</div>
 
-			Active Record was described by Martin Fowler in his book Patterns of Enterprise Application Architecture. In Active Record, objects carry both persistent data and behavior which operates on that data. Active Record takes the opinion that ensuring data access logic as part of the object will educate users of that object on how to write to and read from the database.
-			1.2 Object Relational Mapping
+			<p class="doc-paragraph">Active Record was described by Martin Fowler in his book Patterns of Enterprise Application Architecture. In Active Record, objects carry both persistent data and behavior which operates on that data. Active Record takes the opinion that ensuring data access logic as part of the object will educate users of that object on how to write to and read from the database.</p>
+			
+			<div class="section-sub-header">Object Relational Mapping</div>
 
-			Object Relational Mapping, commonly referred to as its abbreviation ORM, is a technique that connects the rich objects of an application to tables in a relational database management system. Using ORM, the properties and relationships of the objects in an application can be easily stored and retrieved from a database without writing SQL statements directly and with less overall database access code.
+			<p class="doc-paragraph">Object Relational Mapping, commonly referred to as its abbreviation ORM, is a technique that connects the rich objects of an application to tables in a relational database management system. Using ORM, the properties and relationships of the objects in an application can be easily stored and retrieved from a database without writing SQL statements directly and with less overall database access code.</p>
+
+			<div class="section-sub-header"> Active Record as an ORM Framework</div>
+
+			<p class="doc-paragraph">
+				Active Record gives us several mechanisms, the most important being the ability to:
+			</p>
+
+			<ul class="doc-ul doc-paragraph">
+				<li>Represent models and their data.</li>
+				<li>Represent associations between these models.</li>
+				<li>Represent inheritance hierarchies through related models.</li>
+				<li>Validate models before they get persisted to the database.</li>
+				<li>Perform database operations in an object-oriented fashion.</li>
+			</ul>
 	 	</section>
 	 	<section class="main-section" id="Convention_over_Configuration_in_Active_Record">
 	 		<header class="section-header">Convention over Configuration in Active Record</header>

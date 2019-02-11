@@ -108,6 +108,38 @@ body {
 	padding-top: 5%;
 }
 
+.section-header {
+	font-size: 1.8em;
+	font-weight: 600;
+	margin-bottom: 2%;
+	text-decoration: underline;
+}
+
+
+.section-sub-header {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 2% 0 2% 0;
+}
+
+.doc-paragraph {
+	color:  #3e3e3e;
+	line-height: 1.025em;
+	font-size: 1.10em;
+}
+
+.doc-ul {
+	margin: 2% 0 0 3%;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.doc-ul li {
+	padding-bottom: 0.070%;
+	font-size: 1em;
+	
+}
+
 /* Media Queries */
 
 @media (max-width: 450px) {
