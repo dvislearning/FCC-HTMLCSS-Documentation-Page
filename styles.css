@@ -54,10 +54,10 @@ body {
 }
 
 #navbar {
-	border: 2px dotted #EEAA88;
+	border-right: 2px dotted #EEAA88;
 	position: fixed;
 	width: 21%;
-	height: auto;
+	height: 100%;
 }
 
 #rails-logo {
@@ -72,30 +72,59 @@ body {
 	font-size: 17px;
 	font-weight: 600;
 	margin-top: 5px;
+	margin-right: 5px;
 	text-align: right;
 }
-
-@media (max-width: 450px) {
-	#navbar {
-		border: 2px dotted blue;
-		top: 0;
-		left: 0;
-		width: 95%;
-	}
-
-	#main-doc {
-		margin-top: 170px;
-		margin-left: -22%;
-		display: block;
-		position: absolute;
-		width: 100%;
-	}
-}
-
 
 #main-doc {
 	position: relative;
 	left: 22%;
 	width: 70%;
 	height: auto;
+}
+
+
+#nav-links-container {
+	margin-top: 10%;
+	margin-left: 4%;
+	width: 97%;
+	text-align: left;
+}
+
+.nav-link {
+	color: #7e7e7e;
+	text-decoration: none;
+	font-size: 1.10em;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: 500;
+}
+
+
+.nav-link-container {
+	margin-top: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+	#navbar {
+		border: 2px dotted blue;
+		top: 0;
+		left: 0;
+		position: relative;
+		width: 95%;
+		height: auto;
+	}
+
+	#main-doc {
+		margin-top: 10%;
+		display: block;
+		position: relative;
+		left: 5%;
+		width: 90%;
+	}
+	
+	#nav-links-container {
+    margin-top: 5%;
+	}
 }
