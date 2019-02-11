@@ -50,5 +50,52 @@ table {
 }
 
 body {
-	background-color: #000000;
+	background-color: #FFFFFF;
+}
+
+#navbar {
+	border: 2px dotted #EEAA88;
+	position: fixed;
+	width: 21%;
+	height: auto;
+}
+
+#rails-logo {
+	display: block;
+	width: 90%;
+	height: auto;
+}
+
+#header-text {
+	color: #CC0001;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	margin-top: 5px;
+	text-align: right;
+}
+
+@media (max-width: 450px) {
+	#navbar {
+		border: 2px dotted blue;
+		top: 0;
+		left: 0;
+		width: 95%;
+	}
+
+	#main-doc {
+		margin-top: 170px;
+		margin-left: -22%;
+		display: block;
+		position: absolute;
+		width: 100%;
+	}
+}
+
+
+#main-doc {
+	position: relative;
+	left: 22%;
+	width: 70%;
+	height: auto;
 }
