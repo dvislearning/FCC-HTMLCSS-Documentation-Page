@@ -62,7 +62,7 @@ body {
 
 #rails-logo {
 	display: block;
-	width: 90%;
+	max-width: 90%;
 	height: auto;
 }
 
@@ -78,7 +78,7 @@ body {
 
 #main-doc {
 	position: relative;
-	left: 22%;
+	left: 23.5%;
 	width: 70%;
 	height: auto;
 }
@@ -102,6 +102,10 @@ body {
 
 .nav-link-container {
 	margin-top: 20px;
+}
+
+.main-section {
+	padding-top: 5%;
 }
 
 /* Media Queries */
