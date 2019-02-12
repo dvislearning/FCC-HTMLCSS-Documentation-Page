@@ -164,6 +164,13 @@ body {
 	padding-left: 2%;
 }
 
+#main-footer {
+	background-color: #2B2B2B;
+	width: 79%;
+	height: auto;
+	margin: 20% 0 0 21%;
+}
+
 /* Media Queries */
 
 @media (max-width: 450px) {
@@ -194,4 +201,12 @@ body {
 		width: 98%;
 		margin: 5% 0 5% 0%;
 	}
+
+	.doc-paragraph {
+		margin: 8% 0 8% 0;
+	}
+	
+	.doc-ul li {
+	 margin-left: 10%;
+}
 }
