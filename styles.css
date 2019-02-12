@@ -129,15 +129,39 @@ body {
 }
 
 .doc-ul {
-	margin: 2% 0 0 3%;
+	margin: 2% 0 0 7%;
+	width: 60%;
 	list-style-type: square;
-	list-style-position: inside;
+	list-style-position: outside;
 }
 
 .doc-ul li {
-	padding-bottom: 0.070%;
-	font-size: 1em;
-	
+	padding-bottom: 0.080%;
+	font-size: 0.90em;
+}
+
+.doc-ul strong {
+	font-weight: 600;
+}
+
+.li-after-p {
+	margin-bottom: 2%;
+}
+
+
+.code-box {
+	color:  #2a2a2a;
+	font-family: "Lucida Console", Monaco, monospace;
+	width: 60%;
+	border: 3px solid #6c7a89;
+	background-color: #EEEEEE;
+	margin: 5% 0 5% 2%;
+	box-shadow: -5px -5px 2px 1px #6c7a89; 
+}
+
+
+.code-snippet {
+	padding-left: 2%;
 }
 
 /* Media Queries */
@@ -162,5 +186,12 @@ body {
 	
 	#nav-links-container {
     margin-top: 5%;
+	}
+
+	.code-box{
+		font-size: 3vw;
+		word-wrap: normal;
+		width: 98%;
+		margin: 5% 0 5% 0%;
 	}
 }

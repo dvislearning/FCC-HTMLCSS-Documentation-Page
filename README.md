@@ -12,3 +12,6 @@ This project demonstrates:
 - utilization of media queries for full iPhone 7 compatability
 - extra attention to responsive design principles
 - unordered lists
+- manipulation of ul li elements with the list-style-type and list-style-position properties
+- utilition of the code tag and the pre tag
+- manipulating box shadows
