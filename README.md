@@ -9,9 +9,9 @@ The fourth project in Free Code Camp's [HTML/CSS certification track](https://le
 This project demonstrates:
 
 - fixed position, left-side navigation bar
-- utilization of media queries for full iPhone 7 compatability
+- utilization of media queries for full iPhone 8 functionality
 - extra attention to responsive design principles
 - unordered lists
 - manipulation of ul li elements with the list-style-type and list-style-position properties
-- utilition of the code tag and the pre tag
+- utilition of the "code" tag and the "pre" tag
 - manipulating box shadows
